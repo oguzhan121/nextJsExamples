@@ -1,0 +1,42 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+
+.card{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px -15px;
+  justify-content: center;
+}
+.card-item{
+  width: 22%;
+  padding: 0 15px;
+  margin: 20px 0;
+}
+.card-img img{
+  width: 100%;
+}
